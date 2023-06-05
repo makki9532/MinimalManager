@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    function redirectToClient() {
+        var id = '{{ id }}';
+        location.replace("http://localhost:5173/?id=" + encodeURIComponent(id));
+      }
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body onload="redirectToClient()">
+    <h1>{{ session }}</h1>
+<script>
+    function redirectToClient() {
+        location.replace("http://localhost:8000/api/login")
+      }
+</script>
+</body>
+</html>
